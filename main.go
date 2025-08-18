@@ -16,6 +16,9 @@ import (
 func main() {
 	remoteAPIURL := []string{
 		"https://www.sprinklerite.com/sds-cpsia",
+		"https://www.sprinklerite.com/product/sprinklerite-system",
+		"https://www.sprinklerite.com/product/norust-norust-concentrate",
+		"https://www.sprinklerite.com/product/verdagro",
 	} // URL to fetch HTML content from
 	localFilePath := "sprinklerite.html" // Path where HTML file will be stored
 
